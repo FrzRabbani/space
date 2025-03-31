@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/Styles.css">
+        <script src="js/script.js" defer></script>
+        <script type="module" src="js/main-nav.js"></script>
+        <script src="js/tabs.js" defer></script>
+   </head>
+<body class="crews">
+<main-header></main-header>
+<section class="container block crew">
+        <h2 class="block__header">
+            <span class="number number--transparent">02</span>
+             meet your crew
+        </h2>
+<article id="main" class="grid grid--cols-2">
+                <div id="commander" class="crew__content" tabindex="0" role="tabpanel">
+                    <div class="block__heading">
+                        <p class="crew__text">Commander</p>
+                        <h3 class="crew__header">Douglas Hurley</h3>
+                    </div>
+                    <p class="block__content">
+                        Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former
+                        NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.
+                    </p>
+                </div>
+                <div id="specialist" hidden class="crew__content" tabindex="0" role="tabpanel">
+                <div class="block__heading">
+                    <p class="crew__text">Mission Specialist </p>
+                    <h3 class="crew__header">Mark  Shuttleworth</h3>
+                </div>
+                <p class="block__content">
+                    Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. 
+                    Shuttleworth became the first South African to travel to space as a space tourist.
+                </p>
+            </div>
+            <div id="pilot" hidden class="crew__content" tabindex="0" role="tabpanel">
+                <div class="block__heading">
+                    <p class="crew__text">pilot</p>
+                    <h3 class="crew__header">Victor Glover</h3>
+                </div>
+                <p class="block__content">
+                    Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station.
+                     Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew
+                     member of Expedition 64, and served as a station systems flight engineer. 
+                </p>
+            </div>
+            <div id="engineer" hidden class="crew__content" tabindex="0" role="tabpanel">
+                <div class="block__heading">
+                    <p class="crew__text">Flight Engineer</p>
+                    <h3 class="crew__header">Anousheh Ansari</h3>
+                </div>
+                <p class="block__content">
+                    Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth 
+                    self-funded space tourist,
+                     the first self-funded woman to fly to the ISS, and the first Iranian in space. 
+                </p>
+            </div>
+            <ul class="list pagination pagination--small crew__list" role="tablist">
+                <li aria-selected="true" class="pagination__item special" role="tab" tabindex="0" aria-controls="commander" data-image="commandar-image"><a href=""></a></li>
+                <li aria-selected="false" class="pagination__item" role="tab" tabindex="-1" aria-controls="engineer" data-image="engineer-image"><a href=""></a></li>
+                <li aria-selected="false" class="pagination__item" role="tab" tabindex="-1" aria-controls="pilot" data-image="specialist-image"><a href=""></a></li>
+                <li aria-selected="false" class="pagination__item" role="tab" tabindex="-1" aria-controls="specialist" data-image="pilot-image"><a href=""></a></li>
+            </ul>
+           <picture id="commandar-image" class="crew__image">
+           <source srcset="images/crew/webp/image-douglas-hurley.webp" type="image/webp">
+           <img src="images/crew/png/image-douglas-hurley.png" alt="the commandar picture">
+           </picture>
+
+           <picture hidden id="engineer-image" class="crew__image">
+            <source srcset="images/crew/webp/image-anousheh-ansari.webp" type="image/webp">
+            <img src="images/crew/png/image-anousheh-ansari.png" alt="the flight engineering picture">
+            </picture>
+
+           <picture hidden id="specialist-image" class="crew__image">
+            <source srcset="images/crew/webp/image-mark-shuttleworth.webp" type="image/webp">
+            <img  src="images/crew/png/image-mark-shuttleworth.png" alt="the Mission Specialist picture">
+            </picture>
+
+            <picture hidden id="pilot-image" class="crew__image">
+             <source srcset="images/crew/webp/image-victor-glover.webp" type="image/webp">
+            <img  src="images/crew/png/image-victor-glover.png" alt="the pilot picture">
+            </picture>
+    </article>
+  </section>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/Styles.css">
+        <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <a href="/">
+                <svg class="icon icon--large nav__logo">
+                <use xlink:href="images/theSprite.svg#logo"></use>
+              </svg>
+            </a>
+            <button aria-controls="primary-navigation" aria-expanded="false" class="btn nav__toggler">
+                <span class="sr-only">munu</span>
+            </button>
+            <ul id="primary-navigation" data-visible="false" class="list primary-navigation">
+                <li class="list__item nav__item">
+                    <a class="link" href="">
+                    <span aria-hidden="true" class="list__number">00</span>
+                    home
+                   </a>
+               </li>
+                <li class="list__item nav__item">
+                    <a class="link" href="">
+                    <span aria-hidden="true" class="list__number">01</span>
+                    destination
+                   </a>
+               </li>
+                <li class="list__item nav__item">
+                    <a class="link" href="">
+                    <span aria-hidden="true" class="list__number">02</span>
+                    crew
+                   </a>
+               </li>
+                <li class="list__item nav__item">
+                    <a class="link" href="">
+                    <span aria-hidden="true" class="list__number">03</span>
+                     technology
+                   </a>
+               </li>
+            </ul>
+        </nav>
+    </header>  
+    <section class="container crew">
+            <!-- <h2>
+                <span class="number number--transparent">02</span>
+                 meet your crew
+            </h2> -->
+        <div class="block grid grid--cols-2">
+            <div class="crew__content">
+                <div class="block__heading">
+                    <p class="crew__text">Victor Glover</p>
+                    <h3 class="block__header">Victor Glover</h3>
+                </div>
+                <p class="block__content">
+                    Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station
+                    . Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a
+                     crew member of Expedition 64, and served as a station systems flight engineer. 
+                </p>
+                <nav class="crew__nav">
+                    <ul class="list pagination pagination--small crew__list">
+                         <li class="pagination__item special"><a href=""></a></li>
+                        <li class="pagination__item"><a href=""></a></li>
+                        <li class="pagination__item"><a href=""></a></li>
+                        <li class="pagination__item"><a href=""></a></li></li>
+                    </ul>
+                </nav>
+            </div>
+            <picture class="img crew__img">
+            <source srcset="images/crew/png/image-victor-glover.png" type="image/png" />
+            <source srcset="images/crew/webp/image-victor-glover.webp" type="image/webp" />
+            <img src="images/crew/png/image-victor-glover.png" alt="The moon" />
+            </picture>
+        </div>
+   </section>
+</body>
+</html>

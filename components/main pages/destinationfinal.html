@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/Styles.css">
+        <script src="js/script.js" defer></script>
+        <script type="module" src="js/main-nav.js"></script>
+        <script src="js/tabs.js" defer></script>
+   </head>
+   <body class="home">
+    <main-header></main-header>
+    <div class="container block destination">
+        <div class="block__header">
+            <h2 class="destination__header">
+                <span class="number number--transparent">01</span>
+                 pick your destination
+            </h2>
+        </div>
+        <div id="main" class="grid grid--cols-2">
+            <ul class="tablist list list--secondary" role="tablist" aria-label="destination list">
+                <li aria-selected="true" role="tab" aria-controls="moon-tab" class="list__item active" tabindex="0" data-image="moon-image">
+                    moon
+                </li>
+                <li  aria-selected="false" role="tab" aria-controls="mars-tab" class="list__item" tabindex="-1" data-image="mars-image">
+                 
+                    mars
+                </li>
+                <li aria-selected="false" role="tab" aria-controls="europa-tab" class="list__item" tabindex="-1" data-image="europa-image">
+
+                    europa
+                </li>
+                <li aria-selected="false" role="tab" aria-controls="titan-tab" class="list__item" tabindex="-1" data-image="titan-image">
+                    titan
+                </li>
+            </ul>
+        <picture id="moon-image" class="destination__image">
+        <source srcset="images/destination/webp/image-moon.webp" type="image/webp">
+        <img src="images/destination/png/image-moon.png" alt="The moon">
+        </picture>
+
+        <picture id="mars-image" class="destination__image">
+        <source srcset="images/destination/webp/image-mars.webp" type="image/webp">
+        <img src="images/destination/png/image-mars.png" alt="The mars">
+        </picture>
+
+        <picture id="europa-image" class="destination__image">
+        <source srcset="images/destination/webp/image-europa.webp" type="image/webp">
+        <img src="images/destination/png/image-europa.png" alt="The europa">
+       </picture>  
+
+       <picture id="titan-image" class="destination__image">
+        <source srcset="images/destination/webp/image-titan.webp" type="image/webp">
+        <img src="images/destination/png/image-titan.png" alt="The titan">
+       </picture>
+
+    <!-- Moon -->
+    <div id="moon-tab" tabindex="0" class="destination__content" role="tabpanel">
+    <article>
+        <h3 class="block__header">Moon</h3>
+        <p class="block__content">
+            See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed
+            . While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.
+        </p>
+        <div class="destination__statistics">
+            <div>
+                <h4 class="destination__distance-header">avg.distance</h4>
+                <span class="destination__distance-number">38,400 km</span>
+            </div>
+            <div>
+                <h4 class="destination__time-travel-header">est.travel time</h4>
+                <span class="destination__time-travel-number">3 days</span>
+            </div>
+        </div>
+    </article>
+    </div>
+    
+    <!-- Mars -->
+    <div hidden id="mars-tab" tabindex="0" class="destination__content" role="tabpanel">
+    <article>
+        <h3 class="block__header">Mars</h3>
+        <p class="block__content">
+            Don’t forget to pack your hiking boots.
+            You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system.
+            It’s two and a half times the size of Everest!
+        </p>
+        <div class="destination__statistics">
+            <div>
+                <h4 class="destination__distance-header">avg.distance</h4>
+                <span class="destination__distance-number">225 MIL. km</span>
+            </div>
+            <div>
+                <h4 class="destination__time-travel-header">est.travel time</h4>
+                <span class="destination__time-travel-number">9 months</span>
+            </div>
+        </div>
+    </article>
+    </div>    
+    <!-- Europa -->
+    <div hidden id="europa-tab" tabindex="0" class="destination__content" role="tabpanel">
+    <article >
+        <h3 class="block__header">europa</h3>
+        <p class="block__content">
+            The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface,
+            it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.
+        </p>
+        <div class="destination__statistics">
+            <div>
+                <h4 class="destination__distance-header">avg.distance</h4>
+                <span class="destination__distance-number">628 mil.km</span>
+            </div>
+            <div>
+                <h4 class="destination__time-travel-header">est.travel time</h4>
+                <span class="destination__time-travel-number">3 years</span>
+            </div>
+        </div>
+    </article>
+    </div>
+    <!-- Titan -->
+    <div hidden id="titan-tab" tabindex="0" class="destination__content" role="tabpanel">
+    <article>
+        <h3 class="block__header">titan</h3>
+        <p class="block__content">
+            The only moon known to have a dense atmosphere other than Earth,
+            Titan is a home away from home (just a few hundred degrees colder!).
+            As a bonus, you get striking views of the Rings of Saturn.
+        </p>
+        <div class="destination__statistics">
+            <div>
+                <h4 class="destination__distance-header">avg.distance</h4>
+                <span class="destination__distance-number">1.6 bil.km</span>
+            </div>
+            <div>
+                <h4 class="destination__time-travel-header">est.travel time</h4>
+                <span class="destination__time-travel-number">7 years</span>
+            </div>
+        </div>
+    </article>
+    </div> 
+    </div>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

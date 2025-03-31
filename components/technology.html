@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/Styles.css">
+        <script src="js/script.js" defer></script>
+        <script type="module" src="js/main-nav.js"></script>
+        <script src="js/tabs.js" defer></script>
+   </head>
+<body class="technologies">
+    <main-header></main-header>
+    <section class="container block technology">
+        <h2 class="block__header">
+           <span class="number number--transparent">02</span>
+            space lunch 101
+        </h2>
+            <article id="main" class="grid grid--cols-2">
+                <!-- launch  vehicle image -->
+                <picture  id="launch-image" class="technology__image">
+                    <source media="(min-width: 1024px)" srcset="images/technology/jpg/image-launch-vehicle-portrait.jpg">
+                    <img src="images/technology/jpg/image-launch-vehicle-landscape.jpg" alt="the launch vehicle">
+                </picture>
+                <!-- space Capsule image -->
+                <picture hidden id="capsule-image" class="technology__image">
+                    <source media="(min-width: 1024px)" srcset="images/technology/jpg/image-space-capsule-portrait.jpg">
+                    <img src="images/technology/jpg/image-space-capsule-landscape.jpg" alt="the space capsule">
+                </picture>
+                <!-- spaceport image-->
+                <picture hidden id="spaceport-image" class="technology__image">
+                    <source media="(min-width: 1024px)" srcset="images/technology/jpg/image-spaceport-portrait.jpg">
+                    <img src="images/technology/jpg/image-spaceport-landscape.jpg" alt="the spaceport">
+                </picture>
+
+                <!-- launch vehicle  content-->
+                <div class="technology__content" id="launch-tab" tabindex="0" role="tabpanel">
+                    <div class="block__heading">
+                        <p class="block__text">the terminology</p>
+                        <h3 class="technology__header">LAUNCH VEHICLE</h3>
+                    </div>
+                    <p class="block__content">
+                        A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a
+                        payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation
+                        . Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!
+                    </p>
+                </div>
+                <!-- spaceport content-->
+                <div hidden class="technology__content" id="spaceport-tab" tabindex="0" role="tabpanel">
+                    <div class="block__heading">
+                        <p class="block__text">the terminology</p>
+                        <h3 class="technology__header">spaceport</h3>
+                    </div>
+                    <p class="block__content">
+                        A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft.
+                         Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch.
+                    </p>
+                </div>
+                <!-- space capsule content-->
+                <div hidden class="technology__content"  id="capsule-tab" tabindex="0" role="tabpanel">
+                    <div class="block__heading">
+                        <p class="block__text">the terminology</p>
+                        <h3 class="technology__header">space capsule</h3>
+                    </div>
+                    <p class="block__content">
+                        A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's
+                         atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, 
+                         cinema, and plenty of other activities to keep you entertained.
+
+                    </p>
+                </div>
+                <ul class="list pagination pagination--large" role="tablist" aria-label="destination list">
+                    <li  aria-selected="true" role="tab" aria-controls="launch-tab" class="pagination__item special" tabindex="0" data-image="launch-image"><a href="">1</a></li>
+                    <li  aria-selected="true" role="tab" aria-controls="spaceport-tab" class="pagination__item special" tabindex="0" data-image="capsule-image"><a href="">2</a></li>
+                    <li  aria-selected="true" role="tab" aria-controls="capsule-tab" class="pagination__item special" tabindex="0" data-image="spaceport-image"><a href="">3</a></li>
+                </ul>
+            </article>
+      </section>
+</body>
+</html>
+
+
+
