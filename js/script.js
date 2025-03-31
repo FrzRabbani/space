@@ -3,7 +3,7 @@ class MainHeader extends HTMLElement {
       this.innerHTML = `
        <header>
            <nav class="nav">
-               <a href="Space.html">
+               <a href="space.html">
                    <svg class="icon icon--large nav__logo">
                    <use xlink:href="images/theSprite.svg#logo"></use>
                </svg>
