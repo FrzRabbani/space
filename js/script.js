@@ -5,7 +5,7 @@ class MainHeader extends HTMLElement {
            <nav class="nav">
                <a href="space.html">
                    <svg class="icon icon--large nav__logo">
-                   <use xlink:href="images/theSprite.svg#logo"></use>
+                   <use xlink:href="/images/svgspace.svg#logo"></use>
                </svg>
                </a>
                <button aria-controls="primary-navigation" aria-expanded="false" class="btn nav__toggler">

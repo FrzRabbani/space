@@ -6,10 +6,13 @@ class MainHeader extends HTMLElement {
         <header>
             <nav class="nav">
                 <a href="space.html">
-                    <svg class="icon icon--large nav__logo">
-                    <use xlink:href="images/theSprite.svg#logo"></use>
-                </svg>
+                     <svg class="icon icon--large nav__logo">
+                        <use xlink:href="./images/svgspace.svg#logo"></use>
+                    </svg>
                 </a>
+                <svg class="icon icon--large nav__logo">
+            <use xlink:href="images/svgspace.svg#logo"></use>
+         </svg>
                 <button aria-controls="primary-navigation" aria-expanded="false" class="btn nav__toggler">
                     <span class="sr-only">munu</span>
                 </button>
@@ -40,6 +43,9 @@ class MainHeader extends HTMLElement {
                     </li>
                 </ul>
             </nav>
+            <svg class="icon icon--large nav__logo">
+            <use xlink:href="images/svgspace.svg#logo"></use>
+         </svg>
         </header>
         `  
     }
