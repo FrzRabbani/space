@@ -1,17 +1,17 @@
 {
   "name": "space-tourism",
   "version": "1.0.0",
-  "dev": "parcel space.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build space.html" 
+    "start": "parcel space.html",  
+    "build": "parcel build space.html"  
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "parcel-bundler": "^1.12.5",
+    "parcel": "^2.8.3", 
     "svgo": "^3.3.2"
   }
 }
