@@ -1,5 +1,3 @@
-// main header custome html
-
 class MainHeader extends HTMLElement {
     connectedCallback() {
        this.innerHTML = `
@@ -23,7 +21,7 @@ class MainHeader extends HTMLElement {
                         home
                         </a>
                     </li>
-                    <li class="list__item nav__item">
+                    <li id= "nav-destination" class="list__item nav__item">
                         <a class="nav__link" href="#" onclick="return show('destinations')">
                         <span aria-hidden="true" class="list__number">01</span>
                         destination
@@ -51,30 +49,3 @@ class MainHeader extends HTMLElement {
     }
  }
  customElements.define('main-header', MainHeader);
-
-// nav bar
-
-const primaryNav = document.querySelector(".primary-navigation");
-const navToggle = document.querySelector(".nav__toggler");
-console.log(navToggle);
-
-
-navToggle.addEventListener("click", () => {
-   const visibility = primaryNav.getAttribute("data-visible");
-
-   if (visibility === 'false'){
-      primaryNav.setAttribute('data-visible', true);
-      navToggle.setAttribute('aria-expanded', true)
-   }
-   else{
-      primaryNav.setAttribute('data-visible', false);
-      navToggle.setAttribute('aria-expanded', false);
-
-   }
-   
-});
-
-
-
-
-
