@@ -8,9 +8,6 @@ class MainHeader extends HTMLElement {
                         <use xlink:href="./images/svgspace.svg#logo"></use>
                     </svg>
                 </a>
-                <svg class="icon icon--large nav__logo">
-            <use xlink:href="images/svgspace.svg#logo"></use>
-         </svg>
                 <button aria-controls="primary-navigation" aria-expanded="false" class="btn nav__toggler">
                     <span class="sr-only">munu</span>
                 </button>
@@ -41,9 +38,7 @@ class MainHeader extends HTMLElement {
                     </li>
                 </ul>
             </nav>
-            <svg class="icon icon--large nav__logo">
-            <use xlink:href="images/svgspace.svg#logo"></use>
-         </svg>
+
         </header>
         `  
     }
