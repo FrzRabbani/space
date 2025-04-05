@@ -106,12 +106,8 @@ function show(elementId){
 // navigate contents and images
 
 function changeTabPanel(e) {
-   e.preventDefault();
     const targetTab = e.target;
-   if (targetTab.tagName === 'A'){
-      targetTab = targetTab.parentElement;
-   }
-
+  
     const targetPanel = targetTab.getAttribute("aria-controls");
     const targetImage = targetTab.getAttribute("data-image");
     
