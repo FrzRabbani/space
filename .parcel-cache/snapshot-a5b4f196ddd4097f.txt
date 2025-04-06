@@ -169,7 +169,7 @@
 109C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss\lib\root.js133879919218909177 0
 96C:\Users\Technokade\Desktop\shortprj\node_modules\caniuse-lite\data\features\multibackgrounds.js133878933421412151 0
 115C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\transformer-js\node_modules\@parcel\workers\src\Handle.js133879919161601815 0
-47C:\Users\Technokade\Desktop\shortprj\space.html133883117307141053 0
+47C:\Users\Technokade\Desktop\shortprj\space.html133884050757525383 0
 72C:\Users\Technokade\Desktop\shortprj\node_modules\lodash\_isPrototype.js133878934921762671 0
 59C:\Users\Technokade\Desktop\shortprj\node_modules\uniq\test133878934785345075 1
 77C:\Users\Technokade\Desktop\shortprj\node_modules\css-tree\cjs\data-patch.cjs133878934840259751 0
