@@ -14423,7 +14423,7 @@
 107C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\packager-svg\node_modules\color-convert\README.md133879919154107162 0
 115C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\package-manager\node_modules\semver\internal\constants.js133879919157071326 0
 106C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\packager-svg\node_modules\color-convert\route.js133879919155065729 0
-52C:\Users\Technokade\Desktop\shortprj\dist\_redirects133884044204109894 0
+52C:\Users\Technokade\Desktop\shortprj\dist\_redirects133880614895347676 0
 100C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\packager-svg\node_modules\chalk\index.d.ts133879919155442624 0
 121C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\optimizer-htmlnano\node_modules\htmlnano\docs\docs\020-usage.md133879919169401570 0
 97C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\packager-svg\node_modules\chalk\license133879919146673525 0
