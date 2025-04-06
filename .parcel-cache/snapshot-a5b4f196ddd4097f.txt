@@ -1,4 +1,4 @@
-17429
+17447
 111C:\Users\Technokade\Desktop\shortprj\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\lib133879919151681211 1
 99C:\Users\Technokade\Desktop\shortprj\node_modules\caniuse-lite\data\features\css-backdrop-filter.js133878933415497767 0
 71C:\Users\Technokade\Desktop\shortprj\node_modules\csso\dist\csso.esm.js133878934838715726 0
@@ -7,7 +7,7 @@
 146C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\optimizer-htmlnano\node_modules\dom-serializer\node_modules\entities\lib\encode.d.ts.map133879919158533910 0
 81C:\Users\Technokade\Desktop\shortprj\node_modules\lmdb\dependencies\lz4\lib\lz4.c133879919166453334 0
 118C:\Users\Technokade\Desktop\shortprj\node_modules\css-select\node_modules\dom-serializer\lib\esm\foreignNames.d.ts.map133878934785529655 0
-41C:\Users\Technokade\Desktop\shortprj\dist133880557782721124 1
+41C:\Users\Technokade\Desktop\shortprj\dist133884019999206743 1
 60C:\Users\Technokade\Desktop\shortprj\node_modules\source-map133878934949482561 1
 84C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\reporter-cli\src\render.js133879919158700272 0
 74C:\Users\Technokade\Desktop\shortprj\node_modules\postcss\lib\container.js133878934952620303 0
@@ -62,8 +62,8 @@
 57C:\Users\Technokade\Desktop\shortprj\node_modules\@mrmlnc133879919238741793 1
 74C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\profiler\LICENSE133879919146311634 0
 57C:\Users\Technokade\Desktop\shortprj\node_modules\deep-is133878934842204815 1
-40C:\Users\Technokade\Desktop\shortprj\css133879914010944741 1
-39C:\Users\Technokade\Desktop\shortprj\js133878933912319627 1
+40C:\Users\Technokade\Desktop\shortprj\css133883339845004239 1
+39C:\Users\Technokade\Desktop\shortprj\js133883103732210775 1
 78C:\Users\Technokade\Desktop\shortprj\node_modules\lodash\fp\lastIndexOfFrom.js133878934930925080 0
 79C:\Users\Technokade\Desktop\shortprj\node_modules\@swc\helpers\esm\_ts_param.js133879919174392391 0
 56C:\Users\Technokade\Desktop\shortprj\node_modules\@babel133879919242058134 1
@@ -169,7 +169,7 @@
 109C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss\lib\root.js133879919218909177 0
 96C:\Users\Technokade\Desktop\shortprj\node_modules\caniuse-lite\data\features\multibackgrounds.js133878933421412151 0
 115C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\transformer-js\node_modules\@parcel\workers\src\Handle.js133879919161601815 0
-47C:\Users\Technokade\Desktop\shortprj\space.html133879811753034815 0
+47C:\Users\Technokade\Desktop\shortprj\space.html133883117307141053 0
 72C:\Users\Technokade\Desktop\shortprj\node_modules\lodash\_isPrototype.js133878934921762671 0
 59C:\Users\Technokade\Desktop\shortprj\node_modules\uniq\test133878934785345075 1
 77C:\Users\Technokade\Desktop\shortprj\node_modules\css-tree\cjs\data-patch.cjs133878934840259751 0
@@ -1241,6 +1241,7 @@
 91C:\Users\Technokade\Desktop\shortprj\node_modules\parcel\node_modules\has-flag\package.json133879919146876511 0
 70C:\Users\Technokade\Desktop\shortprj\node_modules\request\lib\oauth.js133878934831885408 0
 108C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\runtime-browser-hmr\node_modules\has-flag\index.js133879919149851216 0
+59C:\Users\Technokade\Desktop\shortprj\dist\space.5ffeecb5.js133884019998938123 0
 74C:\Users\Technokade\Desktop\shortprj\node_modules\lodash\_createPartial.js133878934920871699 0
 65C:\Users\Technokade\Desktop\shortprj\node_modules\lmdb\index.d.ts133879919174164131 0
 92C:\Users\Technokade\Desktop\shortprj\node_modules\utility-types\dist\aliases-and-guards.d.ts133879919160120436 0
@@ -1268,7 +1269,6 @@
 102C:\Users\Technokade\Desktop\shortprj\node_modules\jsdom\lib\jsdom\living\nodes\HTMLAreaElement-impl.js133878934840121109 0
 91C:\Users\Technokade\Desktop\shortprj\node_modules\caniuse-lite\data\features\pointerlock.js133878933422414499 0
 142C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-merge-longhand\types\lib\decl\index.d.ts.map133879919216884558 0
-51C:\Users\Technokade\Desktop\shortprj\js\main-nav.js133879271171822593 0
 70C:\Users\Technokade\Desktop\shortprj\node_modules\request-promise-core133878934815089309 1
 129C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\transformer-react-refresh-wrap\node_modules\supports-color\package.json133879919151244570 0
 72C:\Users\Technokade\Desktop\shortprj\node_modules\request-promise-native133878934830384817 1
@@ -1758,6 +1758,7 @@
 102C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\cache\node_modules\@parcel\utils\src\hash.js133879919164174317 0
 69C:\Users\Technokade\Desktop\shortprj\node_modules\type-fest\readme.md133879919150443579 0
 81C:\Users\Technokade\Desktop\shortprj\node_modules\caniuse-lite\data\regions\ST.js133878933423384678 0
+65C:\Users\Technokade\Desktop\shortprj\js\navigation\hover-state.js133883092281054345 0
 131C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\optimizer-image\node_modules\@parcel\workers\lib\process\ProcessWorker.js133879919166088984 0
 90C:\Users\Technokade\Desktop\shortprj\node_modules\csso\node_modules\mdn-data\css\readme.md133878935055370221 0
 92C:\Users\Technokade\Desktop\shortprj\node_modules\lmdb\dependencies\lz4\lib\liblz4-dll.rc.in133879919173790583 0
@@ -2898,6 +2899,7 @@
 65C:\Users\Technokade\Desktop\shortprj\node_modules\lodash\curry.js133878934924495774 0
 123C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\packager-js\node_modules\@parcel\utils\src\dependency-location.js133879919161204320 0
 95C:\Users\Technokade\Desktop\shortprj\node_modules\uncss\node_modules\is-absolute-url\index.d.ts133878935067880400 0
+63C:\Users\Technokade\Desktop\shortprj\dist\space.6885d8cf.js.map133884019999148118 0
 74C:\Users\Technokade\Desktop\shortprj\node_modules\buffer-from\package.json133878934844424579 0
 64C:\Users\Technokade\Desktop\shortprj\node_modules\lodash\pick.js133878934932731229 0
 94C:\Users\Technokade\Desktop\shortprj\node_modules\uncss\node_modules\is-absolute-url\readme.md133878935067856638 0
@@ -3947,6 +3949,7 @@
 123C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\runtime-browser-hmr\node_modules\@parcel\utils\src\getExisting.js133879919162962404 0
 113C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\core\node_modules\@parcel\utils\src\prettyDiagnostic.js133879919170038387 0
 116C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\transformer-css\node_modules\@parcel\utils\src\Deferred.js133879919160867433 0
+59C:\Users\Technokade\Desktop\shortprj\dist\space.b24ec14d.js133884019998938123 0
 74C:\Users\Technokade\Desktop\shortprj\node_modules\react-refresh\runtime.js133879919155516245 0
 119C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\transformer-svg\node_modules\entities\lib\decode_codepoint.js133879919148463088 0
 113C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\optimizer-htmlnano\node_modules\glob\dist\esm\bin.d.mts133879919196240383 0
@@ -7097,6 +7100,7 @@
 109C:\Users\Technokade\Desktop\shortprj\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_load.1133879919163737513 0
 75C:\Users\Technokade\Desktop\shortprj\node_modules\cssom\lib\CSSStyleRule.js133878934830608609 0
 117C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\transformer-posthtml\node_modules\posthtml-render\readme.md133879919153542886 0
+59C:\Users\Technokade\Desktop\shortprj\js\section-switcher.js133883154916991666 0
 105C:\Users\Technokade\Desktop\shortprj\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\midl.h133879919173652820 0
 116C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\optimizer-htmlnano\node_modules\htmlparser2\lib\index.d.ts133879919159446342 0
 107C:\Users\Technokade\Desktop\shortprj\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest3.c133879919170880388 0
@@ -10632,6 +10636,7 @@
 74C:\Users\Technokade\Desktop\shortprj\node_modules\ajv\lib\dot\defaults.def133878934823261057 0
 78C:\Users\Technokade\Desktop\shortprj\node_modules\ajv\lib\dot\dependencies.jst133878934824413039 0
 118C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\reporter-dev-server\node_modules\@parcel\logger\package.json133879919153917103 0
+59C:\Users\Technokade\Desktop\shortprj\dist\space.23e728e0.js133884019998938123 0
 70C:\Users\Technokade\Desktop\shortprj\node_modules\ajv\lib\dot\enum.jst133878934824418386 0
 86C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\transformer-svg\package.json133879919156617013 0
 72C:\Users\Technokade\Desktop\shortprj\node_modules\ajv\lib\dot\errors.def133878934823282080 0
@@ -14301,6 +14306,7 @@
 92C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\packager-svg\node_modules\entities133879919161843310 1
 92C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\packager-svg\node_modules\has-flag133879919152389397 1
 95C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\packager-svg\node_modules\htmlparser2133879919158313972 1
+63C:\Users\Technokade\Desktop\shortprj\dist\space.5ffeecb5.js.map133884019999148118 0
 99C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\packager-svg\node_modules\posthtml-render133879919153117150 1
 76C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\compressor-raw\lib133879919147879903 1
 98C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\packager-svg\node_modules\supports-color133879919152389397 1
@@ -14417,6 +14423,7 @@
 107C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\packager-svg\node_modules\color-convert\README.md133879919154107162 0
 115C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\package-manager\node_modules\semver\internal\constants.js133879919157071326 0
 106C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\packager-svg\node_modules\color-convert\route.js133879919155065729 0
+52C:\Users\Technokade\Desktop\shortprj\dist\_redirects133880614895347676 0
 100C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\packager-svg\node_modules\chalk\index.d.ts133879919155442624 0
 121C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\optimizer-htmlnano\node_modules\htmlnano\docs\docs\020-usage.md133879919169401570 0
 97C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\packager-svg\node_modules\chalk\license133879919146673525 0
@@ -14977,7 +14984,7 @@
 123C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\package-manager\node_modules\node-addon-api\napi-inl.deprecated.h133879919154619019 0
 108C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\package-manager\node_modules\node-addon-api\napi.h133879919158399400 0
 108C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\optimizer-htmlnano\node_modules\htmlnano\index.mjs133879919172114533 0
-49C:\Users\Technokade\Desktop\shortprj\js\script.js133879271779645757 0
+49C:\Users\Technokade\Desktop\shortprj\js\script.js133883148331227908 0
 120C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\package-manager\node_modules\node-addon-api\node_addon_api.gyp133879919147766492 0
 115C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\package-manager\node_modules\node-addon-api\noexcept.gypi133879919153640477 0
 122C:\Users\Technokade\Desktop\shortprj\node_modules\@parcel\package-manager\node_modules\node-addon-api\package-support.json133879919161148456 0
@@ -17168,9 +17175,10 @@
 81C:\Users\Technokade\Desktop\shortprj\node_modules\.bin\update-browserslist-db.cmd133878933426225441 0
 81C:\Users\Technokade\Desktop\shortprj\node_modules\.bin\update-browserslist-db.ps1133878933426225441 0
 59C:\Users\Technokade\Desktop\shortprj\node_modules\.bin\uuid133878935118795965 0
-50C:\Users\Technokade\Desktop\shortprj\js\.gitignore133865851575157164 0
-48C:\Users\Technokade\Desktop\shortprj\js\hover.js133878742616107529 0
-47C:\Users\Technokade\Desktop\shortprj\js\tabs.js133877964067171168 0
+54C:\Users\Technokade\Desktop\shortprj\js\main-header.js133883186196799633 0
+50C:\Users\Technokade\Desktop\shortprj\js\navigation133883094166630815 1
+54C:\Users\Technokade\Desktop\shortprj\js\tab-handler.js133883155400661723 0
+64C:\Users\Technokade\Desktop\shortprj\js\navigation\nav-toggle.js133883091945117607 0
 55C:\Users\Technokade\Desktop\shortprj\images\destination133878933910889227 1
 57C:\Users\Technokade\Desktop\shortprj\images\spacesvg.html133879302794621701 0
 54C:\Users\Technokade\Desktop\shortprj\images\technology133878933911854435 1
@@ -17223,18 +17231,28 @@
 67C:\Users\Technokade\Desktop\shortprj\dist\image-titan.1e73373c.webp133880557775493596 0
 66C:\Users\Technokade\Desktop\shortprj\dist\image-titan.21dad628.png133880557777749187 0
 74C:\Users\Technokade\Desktop\shortprj\dist\image-victor-glover.49f12e02.png133880557776630238 0
+52C:\Users\Technokade\Desktop\shortprj\dist\index.html133880557782639671 0
+60C:\Users\Technokade\Desktop\shortprj\dist\space.03d495db.css133884019998938123 0
+64C:\Users\Technokade\Desktop\shortprj\dist\space.03d495db.css.map133884019999155771 0
+63C:\Users\Technokade\Desktop\shortprj\dist\space.23e728e0.js.map133884019999148118 0
+59C:\Users\Technokade\Desktop\shortprj\dist\space.3b857467.js133884019998938123 0
+63C:\Users\Technokade\Desktop\shortprj\dist\space.3b857467.js.map133884019999148118 0
+59C:\Users\Technokade\Desktop\shortprj\dist\space.3c5f0cf3.js133884019998938123 0
+63C:\Users\Technokade\Desktop\shortprj\dist\space.3c5f0cf3.js.map133884019999148118 0
 60C:\Users\Technokade\Desktop\shortprj\dist\space.415ce803.css133880557782639671 0
 64C:\Users\Technokade\Desktop\shortprj\dist\space.415ce803.css.map133880557782703048 0
 59C:\Users\Technokade\Desktop\shortprj\dist\space.4ce2d72a.js133880557782650069 0
 63C:\Users\Technokade\Desktop\shortprj\dist\space.4ce2d72a.js.map133880557782697794 0
+59C:\Users\Technokade\Desktop\shortprj\dist\space.6885d8cf.js133884019998938123 0
+63C:\Users\Technokade\Desktop\shortprj\dist\space.b24ec14d.js.map133884019999148118 0
 59C:\Users\Technokade\Desktop\shortprj\dist\space.bde9d6eb.js133880557782644892 0
 63C:\Users\Technokade\Desktop\shortprj\dist\space.cc616602.js.map133880557782703048 0
 60C:\Users\Technokade\Desktop\shortprj\dist\space.de2b71ec.css133880557782644892 0
 64C:\Users\Technokade\Desktop\shortprj\dist\space.de2b71ec.css.map133880557782697794 0
 59C:\Users\Technokade\Desktop\shortprj\dist\space.efa0e0ee.js133880557782639671 0
-52C:\Users\Technokade\Desktop\shortprj\dist\space.html133880557782639671 0
+52C:\Users\Technokade\Desktop\shortprj\dist\space.html133884019998938123 0
 54C:\Users\Technokade\Desktop\shortprj\css\normalize.css133879066962574370 0
-51C:\Users\Technokade\Desktop\shortprj\css\styles.css133879280246516856 0
+51C:\Users\Technokade\Desktop\shortprj\css\styles.css133883193251502372 0
 62C:\Users\Technokade\Desktop\shortprj\components\crewfinal.html133866796017353423 0
 57C:\Users\Technokade\Desktop\shortprj\components\hero.html133848621224387812 0
 57C:\Users\Technokade\Desktop\shortprj\components\icon.html133847739141268983 0
