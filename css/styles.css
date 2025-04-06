@@ -201,7 +201,7 @@ a{
     cursor: pointer;
 }
 
-.active{
+.list__item .active{
     border-bottom: 1px solid var(--accent-color);
 }
 
@@ -902,11 +902,9 @@ body.technologies{
     background-image:url(../images/home/background-home-desktop.jpg);
     }
 }
-.section{
-  display: block;
-}
 
-/* .destination{
+
+.destination{
     display: none;
 }
 
@@ -915,4 +913,4 @@ body.technologies{
 }
 .crew{
     display: none;
-} */
+}
